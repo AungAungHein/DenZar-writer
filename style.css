@@ -1,0 +1,124 @@
+
+/*
+
+Name : CSS Tutorial
+
+URL: http://www.worldwidemyanmar.com
+Description: This is HTML and CSS Tutorial by WWM
+Version: 1.0
+Author: Administrator
+Tags: news, reviews, tutorial, products, buy, sell
+*/
+body,td,th {
+font-family: 'Times New Roman', Times, serif;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: 'Times New Roman', Times, serif;
+}
+#head-container
+{
+  color: #000;
+  background: cyan;
+}
+#header
+{
+  margin: 0 auto;
+  width: 80%;
+  padding: 5px;
+  background: cyan;
+}
+#header h1 { margin: 0; }
+#menu-container
+{
+float: left;
+width: 100%;
+color: white;
+background: wheat;
+}
+#menu
+{
+margin: 0 auto;
+width: 900px;
+}
+#menu ul
+{
+margin: 0;
+padding: 0;
+}
+#menu ul li
+{
+list-style-type: none;
+display: inline;
+}
+#menu li a
+{
+display: block;
+float: left;
+padding: 5px 16px;
+color: #fff;
+text-decoration: none;
+border-right: 2px solid #fff;
+}
+#menu li a:hover { background: #383; }
+#content-container
+{
+float: left;
+width: 100%;
+color: #000;
+background: #eee;
+}
+#content-container2
+{
+margin: 0 auto;
+width: 900px;
+}
+#content-container3
+{
+  float: left;
+  width: 900px;
+  background: #FFF url(two-fixed-background.gif) repeat-y 100% 0;
+  }
+  #content
+{
+clear: left;
+float: left;
+width: 560px;
+padding: 20px 0;
+margin: 0 0 0 30px;
+display: inline;
+}
+#content h2 { margin: 0; }
+#rightnav
+{
+float: right;
+width: 240px;
+padding: 20px 0;
+margin: 0 20px 0 0;
+display: inline;
+}
+#rightnav h3 { margin: 0; }
+#footer-container
+{
+clear: left;
+color: #fff;
+background: #000;
+}
+#footer
+{
+margin: 0 auto;
+width: 900px;
+text-align: right;
+padding: 20px;
+height: 1%;
+}
+#content
+{
+  clear: left;
+  float: left;
+  width: 60%;
+  padding: 20px 0;
+  margin: 0 20px 0 0;
+  display: inline;
+}
+
+
